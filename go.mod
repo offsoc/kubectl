@@ -29,10 +29,10 @@ require (
 	golang.org/x/sys v0.21.0
 	gopkg.in/evanphx/json-patch.v4 v4.12.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.0.0-20240713182828-fc8a03c10db3
-	k8s.io/apimachinery v0.0.0-20240713182533-d7e1c5311169
+	k8s.io/api v0.30.3
+	k8s.io/apimachinery v0.30.3
 	k8s.io/cli-runtime v0.0.0-20240713190550-094be534f684
-	k8s.io/client-go v0.0.0-20240713183232-34751e103ae1
+	k8s.io/client-go v0.30.3
 	k8s.io/component-base v0.0.0-20240713184224-e801fe99c4f5
 	k8s.io/component-helpers v0.0.0-20240713184356-f77f7fa6cffb
 	k8s.io/klog/v2 v2.130.1
@@ -51,7 +51,7 @@ require (
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
-	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
+	github.com/evanphx/json-patch v4.12.0+incompatible // indirect
 	github.com/go-errors/errors v1.4.2 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-openapi/jsonpointer v0.19.6 // indirect
@@ -80,7 +80,6 @@ require (
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
-	github.com/x448/float16 v0.8.4 // indirect
 	github.com/xlab/treeprint v1.2.0 // indirect
 	go.starlark.net v0.0.0-20230525235612-a134d8f9ddca // indirect
 	golang.org/x/net v0.26.0 // indirect
